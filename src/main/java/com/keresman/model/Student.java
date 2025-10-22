@@ -21,7 +21,7 @@ import java.util.List;
                 )
         }
 )
-public class Student {
+public final class Student {
 
     @Id
     @SequenceGenerator(
