@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @Entity(name = "Book")
 @Table(name = "book")
-public class Book {
+public final class Book {
 
     @Id
     @SequenceGenerator(
