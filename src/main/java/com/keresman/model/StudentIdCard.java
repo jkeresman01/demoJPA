@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
                 )
         }
 )
-public class StudentIdCard {
+public final class StudentIdCard {
 
     @Id
     @SequenceGenerator(
