@@ -11,7 +11,7 @@ import java.util.List;
 @NoArgsConstructor
 @Entity(name = "course")
 @Table(name = "course")
-public class Course {
+public final class Course {
 
     @Id
     @SequenceGenerator(
